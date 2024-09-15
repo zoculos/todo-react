@@ -1,0 +1,53 @@
+body{
+  font-family: Arial;
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+  background-image: url("./assets/img/bg.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.app{
+  max-width: 600px;
+  margin: 0 auto 300 px;
+  background-color: #efefef;
+  padding: 20px 30px ;
+  border-radius: 10px;
+}
+h1{
+  text-align: center;
+}
+h2{margin-bottom: 10px;}
+p{margin: 10 px 0;}
+input{box-sizing: border-box;}
+
+button{
+  background-color: #333974;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: .8;
+  transition: .3s;
+}
+
+.complete{
+  background-color: rgb(66, 239, 35);
+  margin-right: 6px;
+}
+.remove{
+  background-color: red;
+}
+button:hover{opacity: 1;}
+.todo-form{
+padding-bottom: 1.5rem;
+}
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #dddd;
+  border-radius: 3px;
+  width: 100%;
+}
